@@ -870,7 +870,6 @@ contract VaultOwned is Ownable {
 }
 
 contract InteToken is ERC20Permit, VaultOwned {
-
     using SafeMath for uint256;
 
     constructor() ERC20("InteDAO", "INTE", 9) {
