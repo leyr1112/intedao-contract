@@ -898,4 +898,5 @@ contract InteToken is ERC20Permit, VaultOwned {
         _approve(account_, msg.sender, decreasedAllowance_);
         _burn(account_, amount_);
     }
+    
 }
